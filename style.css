@@ -1,0 +1,97 @@
+body{
+font-family: Arial;
+margin:0;
+background:#4e91b4;
+}
+
+header{
+background:#333;
+color:rgb(255, 255, 255);
+padding:15px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:#e6e6e6;
+}
+
+.hero img{
+width:180px;
+height:180px;
+border-radius:100%;
+object-fit:cover;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.project-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+width:200px;
+border-radius:8px;
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.skills-list span{
+background:#333;
+color:white;
+padding:10px;
+margin:5px;
+display:inline-block;
+border-radius:5px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+gap:10px;
+}
+
+input, textarea{
+padding:10px;
+}
+
+button{
+background:#333;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+}
