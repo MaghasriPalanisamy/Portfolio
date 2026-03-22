@@ -3,106 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Magha Sri Palanisamy Portfolio</title>
+<title>Magha Sri Palanisamy | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Header -->
-<header>
+<header class="navbar">
+    <h2>Magha Sri Palanisamy</h2>
     <nav>
-        <h2 class="logo">Magha Sri Palanisamy</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<!-- Hero Section -->
 <section class="hero">
-    <img src="profile.jpg" alt="Profile Photo">
-    <h1>Hello I'm Magha Sri Palanisamy</h1>
-    <p>Computer Science Engineer | Web Developer | Video Editor</p>
-</section>
+  <div class="hero-content">
+  
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Magha Sri</span></h1>
+      <p>Web Developer • CSE Student • Creative Designer</p>
+      <a href="#projects" class="btn">View Work</a>
+    </div>
 
-<!-- About -->
-<section id="about">
+    <div class="hero-img">
+      <img src="profile.jpg" alt="Profile">
+    </div>
+
+  </div>
+</section>
+        
+
+<section id="about" class="section">
     <h2>About Me</h2>
     <p>
-        I am a Computer Science student passionate about technology and software development.
-        I enjoy building websites and learning new tools like Python, Git, and Figma.
+        I am a passionate Computer Science student focused on building modern, responsive,
+        and user-friendly applications. I enjoy learning new technologies and improving my skills.
     </p>
 </section>
 
-<!-- Projects -->
-<section id="projects">
+<section id="projects" class="section">
     <h2>Projects</h2>
 
-    <div class="project-container">
+    <div class="cards">
 
         <div class="card">
             <h3>Portfolio Website</h3>
-            <p>Personal website built using HTML and CSS.</p>
-            <a href="#">View Project</a>
+            <p>Modern personal portfolio using HTML & CSS.</p>
+            <a href="https://github.com/MaghasriPalanisamy/Portfolio">View</a>
         </div>
 
         <div class="card">
             <h3>E-Compario</h3>
-            <p>Python project for product price comparision across e-commerce platform.</p>
-            <a href=" http://10.150.106.47:5000">GitHub</a>
+            <p>Python-based product comparison tool.</p>
+            <a href="https://github.com/MaghasriPalanisamy/PROJECT">GitHub</a>
         </div>
 
         <div class="card">
             <h3>UI Design</h3>
-            <p>Mobile app interface designed using Figma.</p>
-            <a href="#">View Design</a>
+            <p>Mobile UI designed using Figma.</p>
+            <a href="#">View</a>
         </div>
 
     </div>
 </section>
 
-<!-- Skills -->
-<section id="skills">
+<section id="skills" class="section">
     <h2>Skills</h2>
-
-    <div class="skills-list">
+    <div class="skills">
         <span>HTML</span>
         <span>CSS</span>
         <span>Python</span>
+        <span>Java</span>
         <span>Figma</span>
         <span>Git</span>
-        <span>Java</span>
     </div>
-
 </section>
 
-<!-- Contact -->
-<section id="contact">
+<section id="contact" class="section">
     <h2>Contact</h2>
 
-    <p>Email         : maghasripalanisamy@gmail.com</p>
-    <p>Mobile Number : +91 9876543210</p>
-
-    <div class="social">
-        <a href="https://www.linkedin.com/in/maghasri-palanisamy-bb67793a1/">LinkedIn</a>
-        <a href="https://github.com/maghasri">GitHub</a>
-    </div>
+    <p>Email     : maghasripalanisamy@gmail.com</p>
+    <p>GitHub    : https://github.com/MaghasriPalanisamy</p>
+    
 
     <form>
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <textarea placeholder="Message"></textarea>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
         <button type="submit">Send</button>
     </form>
-
 </section>
 
 <footer>
-<p>© 2026 Magha Sri Palanisamy Portfolio</p>
+    <p>© 2026 Magha Sri</p>
 </footer>
 
 </body>
